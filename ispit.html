@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ispit</title>
+    <style>
+        table, td, th {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <form action="#" method="post">
+            <tr>
+                <td>Ime:</td>
+                <td><input type="text" name="firstName"></td>
+            </tr>
+            <tr>
+                <td>Prezime:</td>
+                <td><input type="text" name="lastName" id=""></td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td>Država:</td>
+                <td>
+                     <select name="Drzava" id="Drzava">
+                       <option value="Croatia" id="Croatia">Croatia</option>
+                       <option value="BiH" id="BiH">BiH</option>
+                       <option value="Slovenija" id="Slovenija">Slovenija</option>
+                      </select>
+                </td>  
+            </tr>
+            <tr>
+                <td>Spol</td>
+                <td>
+                    <input type="radio" name="gender" id="male">Musko
+                    <input type="radio" name="gender" id="Zensko">Zensko
+                </td>
+            </tr>
+            <tr>
+                <td>Zanima me:</td>
+                <td>
+                    <input type="checkbox" name="Plivanje">Plivanje
+                    <input type="checkbox" name="Planinarenje">Planinarenje
+                    <input type="checkbox" name="Programiranje">Programiranje
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="button" name="Posalji">Posalji</button>
+                </td>
+            </tr>
+        </form>
+
+    </table>
+    
+</body>
+</html>
