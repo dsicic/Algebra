@@ -1,5 +1,4 @@
 <?php
-// ConfigManager.php
 
 class ConfigManager {
     public static function getConfig($key) {
